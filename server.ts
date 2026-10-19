@@ -53,7 +53,7 @@ app.post('/api/chat', async (req, res) => {
       apiKey,
       httpOptions: {
         headers: {
-          'User-Agent': 'aistudio-build',
+          'User-Agent': 'mr-ahmad-platform',
         }
       }
     });
@@ -246,7 +246,7 @@ app.post('/api/architect', async (req, res) => {
       apiKey,
       httpOptions: {
         headers: {
-          'User-Agent': 'aistudio-build',
+          'User-Agent': 'mr-ahmad-platform',
         }
       }
     });

@@ -78,7 +78,7 @@ export default function AIArchitect() {
             />
             <div className="p-2 bg-black/40 rounded-b-xl flex justify-between items-center border-t border-white/5">
               <span className="text-xs text-slate-500 font-mono flex items-center gap-2">
-                <Sparkles className="w-3 h-3 text-cyan-500" /> Powered by Gemini
+                <Sparkles className="w-3 h-3 text-cyan-500" /> Developed by Muhammad Ahmad Shahid
               </span>
               <button
                 type="submit"
