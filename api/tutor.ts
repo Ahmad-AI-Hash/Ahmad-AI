@@ -25,12 +25,10 @@ export default async function handler(req: Request) {
       return new Response(JSON.stringify({ error: 'GEMINI_API_KEY is not set on the server.' }), { status: 500 });
     }
     
-    // Explicitly use native fetch to satisfy edge runtime
     const ai = new GoogleGenAI({ 
       apiKey,
       httpOptions: { 
-        headers: { 'User-Agent': 'vercel-serverless' },
-        fetch: fetch 
+        headers: { 'User-Agent': 'mr-ahmad-platform' }
       }
     });
     
